@@ -44,7 +44,7 @@ body{
 
 .logo{
     max-width: 256px;
-    max-height: 36px;
+    max-height: 26px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -61,7 +61,9 @@ img > .logoGoFlux{
 }
 
 .logoGoFlux{
-    max-height: 36px;
+    max-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 12px;
 }
 
 .pre-content{
@@ -69,12 +71,9 @@ img > .logoGoFlux{
     align-items: center;
 }
 
-.tittle{
-    font-weight: 600;
-    color: #1b1b1b;
-    font-size: 1.5rem;
-    line-height: 1.75rem;
-}
+
+
+
 
 #userPassword{
     width: 99.5%;
@@ -86,13 +85,14 @@ img > .logoGoFlux{
     /* padding: 6px 10px; */
     border-width: 1px;
     border-color: rgba(0,0,0,0.6);
-    height: 36px;
+    height: 22px;
     outline: none;
     background-color: transparent;
     border-top-width: 0;
     border-left-width: 0;
     border-right-width: 0;
     padding-left: 0;
+    margin-bottom: 15px;
 }
 
 a.link{
@@ -102,6 +102,11 @@ a.link{
     font-size: .8125rem;
     text-align: left;
     margin-bottom: 16px;
+}
+
+a.link:hover{
+    color: #8b8b8b;
+    text-decoration: underline;
 }
 
 .buttonPrimary{
@@ -127,6 +132,11 @@ a.link{
     font-family: inherit;
 }
 
+.buttonPrimary:hover{
+    border-color: #02599c;
+    background-color: #02599c;
+}
+
 
 .textbox{
     background-color: #f2f2f2;
@@ -144,4 +154,76 @@ a.link{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+
+.tittle{
+    font-weight: 900;
+    color: #1b1b1b;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.75rem;
+    
+}
+
+.labelTittle{
+    margin: 16px 0;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.userEmail{
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(78, 78, 78);
+}
+
+.footer{
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    min-height: 18px;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+.footer-list > li >a{
+    font-size: 12px;
+    line-height: 28px;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 0px 6px 0px 6px;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-list > li > a:hover{
+    text-decoration: underline;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.footer-list > li >a.reti{
+    letter-spacing: 5px;
+    font-size: 15px;
 }

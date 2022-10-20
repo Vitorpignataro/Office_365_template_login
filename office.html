@@ -5,7 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+        <link rel="shortcut icon" href="img/microsoft.png">
         <title>Entre em Outlook</title>
+
+
     </head>
     <body>
         
@@ -13,17 +20,24 @@
             <img src="img/Outlook.png" class="logo">
             <div class="box-area">
                 <div class="content-area">
-                    <img src="img/goFlux" class="logoGoFlux">
+                    <img src="data:image/png;base64,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" class="logoGoFlux">
                     <div class="pre-content">
                         <img src="img/arrow_left.svg">
-                        EmailHere
+                        <div class="userEmail">
+                            josevitor.pignataro@goflux.com.br
+                        </div>
                     </div>
 
                     <div class="formulario">
-                        <label class="tittle">Insira a Senha</label>
+                        <div class="labelTittle">
+                            <label class="tittle">Insira a Senha</label>
+                        </div>
                         <form action="" method="post">
                             <input type="password" name="userPassword" id="userPassword" placeholder="Senha">
-                            <a href="" class="link">Esqueci minha senha</a>
+                            <div class="links">
+                                <a href="" class="link">Esqueci minha senha</a>
+                                <a href="" class="link">Iniciar sessão com outra conta</a>
+                            </div>
                             <input type="submit" value="Entrar" class="buttonPrimary">
                         </form>
 
@@ -36,6 +50,20 @@
                 </div>
             </div>
         </div>
+
+        <footer class="footer">
+            <ul class="footer-list">
+                <li>
+                    <a href="">Termos de Utilização</a>
+                </li>
+                <li>
+                    <a href="">Privacidade e cookies</a>
+                </li>
+                <li>
+                    <a href="" class="reti">...</a>
+                </li>
+            </ul>
+        </footer>
 
     </body>
 </html>
