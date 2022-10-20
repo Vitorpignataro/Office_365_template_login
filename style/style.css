@@ -1,0 +1,147 @@
+body{
+    background-image: url('../img/background.jpg');
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    direction: ltr;
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    padding-bottom: 0.227px;
+    padding-top: 0.227px;
+    color: #000;
+    background-color: #fff;
+    text-align: left;
+}
+
+
+.box-area{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 340px;
+    width: calc(100% - 40px);
+    padding: 44px 44px 0px 44px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    min-width: 320px;
+    min-height: 338px;
+    overflow: hidden;
+
+}
+
+.login-page{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.logo{
+    max-width: 256px;
+    max-height: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    margin-bottom: 24px;
+}
+
+img > .logoGoFlux{
+    vertical-align: middle;
+    border: 0;
+}
+
+.logoGoFlux{
+    max-height: 36px;
+}
+
+.pre-content{
+    display: flex;
+    align-items: center;
+}
+
+.tittle{
+    font-weight: 600;
+    color: #1b1b1b;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+#userPassword{
+    width: 99.5%;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.4);
+    background-color: rgba(255,255,255,0.4);
+    /* padding: 6px 10px; */
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.6);
+    height: 36px;
+    outline: none;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+}
+
+a.link{
+    color: #0067b8;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: .8125rem;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.buttonPrimary{
+    color: #fff;
+    border-color: #0067b8;
+    background-color: #0067b8;
+    display: block;
+    /* width: 100%; */
+    min-height: 32px;
+    border: none;
+    min-width: 108px;
+    line-height: normal;
+    position: absolute;
+    /* bottom: 0; */
+    right: 44px;
+    padding: 4px 12px 4px 12px;
+    /* text-align: right; */
+    bottom: auto;
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+
+.textbox{
+    background-color: #f2f2f2;
+    padding: 24px 20px 36px 44px;
+    margin: 76px -44px -44px -44px;
+    text-align: left;
+ 
+}
+
+.disclamer{
+    display: block;
+    color: #1b1b1b;
+    padding: 0px 20px 36px 0px;
+    margin-block-start: 1em; 
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
